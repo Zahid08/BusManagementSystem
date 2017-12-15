@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="online_bus_ticketDataSet3" targetNamespace="http://tempuri.org/online_bus_ticketDataSet3.xsd" xmlns:mstns="http://tempuri.org/online_bus_ticketDataSet3.xsd" xmlns="http://tempuri.org/online_bus_ticketDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="online_bus_ticketConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="online_bus_ticketConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ContactForm.Properties.Settings.GlobalReference.Default.online_bus_ticketConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PassengerTableAdapter" GeneratorDataComponentClassName="PassengerTableAdapter" Name="Passenger" UserDataComponentName="PassengerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="online_bus_ticketConnectionString (Settings)" DbObjectName="dbo.Passenger" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Seat_name FROM dbo.Passenger</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Seat_name" DataSetColumn="Seat_name" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="online_bus_ticketConnectionString (Settings)" DbObjectName="dbo.Passenger" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Seat_name FROM dbo.Passenger where Choach_no='T43'</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="online_bus_ticketDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="online_bus_ticketDataSet3" msprop:Generator_UserDSName="online_bus_ticketDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Passenger" msprop:Generator_TableClassName="PassengerDataTable" msprop:Generator_TableVarName="tablePassenger" msprop:Generator_RowChangedName="PassengerRowChanged" msprop:Generator_TablePropName="Passenger" msprop:Generator_RowDeletingName="PassengerRowDeleting" msprop:Generator_RowChangingName="PassengerRowChanging" msprop:Generator_RowEvHandlerName="PassengerRowChangeEventHandler" msprop:Generator_RowDeletedName="PassengerRowDeleted" msprop:Generator_RowClassName="PassengerRow" msprop:Generator_UserTableName="Passenger" msprop:Generator_RowEvArgName="PassengerRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Seat_name" msprop:Generator_ColumnVarNameInTable="columnSeat_name" msprop:Generator_ColumnPropNameInRow="Seat_name" msprop:Generator_ColumnPropNameInTable="Seat_nameColumn" msprop:Generator_UserColumnName="Seat_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

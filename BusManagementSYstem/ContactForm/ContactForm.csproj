@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9CA04036-065B-415D-9B79-A52DF7980249}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ContactForm</RootNamespace>
+    <AssemblyName>ContactForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\zahid\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>63AFCD88C581FE2A5AF77FFF14EA4ED29FEB3C6C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ContactForm_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Coach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Coach.Designer.cs">
+      <DependentUpon>Add_Coach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_employee.Designer.cs">
+      <DependentUpon>add_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_login.Designer.cs">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookTicket.Designer.cs">
+      <DependentUpon>BookTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="choach_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="choach_update.Designer.cs">
+      <DependentUpon>choach_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database Menagement System.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database Menagement System.Designer.cs">
+      <DependentUpon>Database Menagement System.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete_coach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_coach.Designer.cs">
+      <DependentUpon>delete_coach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_employee.Designer.cs">
+      <DependentUpon>delete_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_employee.Designer.cs">
+      <DependentUpon>Manage_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="online_bus_ticketDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>online_bus_ticketDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="online_bus_ticketDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>online_bus_ticketDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="online_bus_ticketDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>online_bus_ticketDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="online_bus_ticketDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>online_bus_ticketDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ticket1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket1.Designer.cs">
+      <DependentUpon>Ticket1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_employee.Designer.cs">
+      <DependentUpon>update_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Coach.resx">
+      <DependentUpon>Add_Coach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_employee.resx">
+      <DependentUpon>add_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_login.resx">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookTicket.resx">
+      <DependentUpon>BookTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="choach_update.resx">
+      <DependentUpon>choach_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database Menagement System.resx">
+      <DependentUpon>Database Menagement System.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_coach.resx">
+      <DependentUpon>delete_coach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_employee.resx">
+      <DependentUpon>delete_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_employee.resx">
+      <DependentUpon>Manage_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ticket1.resx">
+      <DependentUpon>Ticket1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_employee.resx">
+      <DependentUpon>update_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ContactForm_TemporaryKey.pfx" />
+    <None Include="online_bus_ticketDataSet.xsc">
+      <DependentUpon>online_bus_ticketDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="online_bus_ticketDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>online_bus_ticketDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="online_bus_ticketDataSet.xss">
+      <DependentUpon>online_bus_ticketDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="online_bus_ticketDataSet1.xsc">
+      <DependentUpon>online_bus_ticketDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="online_bus_ticketDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>online_bus_ticketDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="online_bus_ticketDataSet1.xss">
+      <DependentUpon>online_bus_ticketDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="online_bus_ticketDataSet2.xsc">
+      <DependentUpon>online_bus_ticketDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="online_bus_ticketDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>online_bus_ticketDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="online_bus_ticketDataSet2.xss">
+      <DependentUpon>online_bus_ticketDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="online_bus_ticketDataSet3.xsc">
+      <DependentUpon>online_bus_ticketDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="online_bus_ticketDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>online_bus_ticketDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="online_bus_ticketDataSet3.xss">
+      <DependentUpon>online_bus_ticketDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443956-abstract-green-background-with-bus-images-vector-illustration.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9243f4f0df20e82521c8f1bcea9a6f95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\em.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employeemn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exterior-of-a-bus-station-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inside1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inside2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inside3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inside4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inside5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lgin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lgin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modern-bus-and-blue-car-on-abstract-background-download-royalty-free-vector-file-eps-108827.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay-now-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay1-now-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\singup1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\singup2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\submit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updateu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\urban-bus-with-brilliant-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hom1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hom2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Contact.Database\Contact.Database.csproj">
+      <Project>{C423A4A9-FC61-4089-8E81-91CCCCB10293}</Project>
+      <Name>Contact.Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Contact.Entity\Contact.Entity.csproj">
+      <Project>{7f7a2e97-bdb9-45b4-ba74-70c911141076}</Project>
+      <Name>Contact.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{899e56dc-5fd4-46d2-ac2c-fbc5a4f251cb}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="online_bus_ticket.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="online_bus_ticket_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>online_bus_ticket.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

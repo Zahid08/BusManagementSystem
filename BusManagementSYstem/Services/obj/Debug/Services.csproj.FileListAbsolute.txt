@@ -1,0 +1,10 @@
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\bin\Debug\Services.dll.config
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\bin\Debug\Services.dll
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\bin\Debug\Services.pdb
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\bin\Debug\Contact.Database.dll
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\bin\Debug\Contact.Entity.dll
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\bin\Debug\Contact.Database.pdb
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\bin\Debug\Contact.Entity.pdb
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\obj\Debug\Services.dll
+D:\AIUB_AFTER_2\Sarmad_update_final\C#_fianl\C#_fianl\BusManagementSYstem\Services\obj\Debug\Services.pdb

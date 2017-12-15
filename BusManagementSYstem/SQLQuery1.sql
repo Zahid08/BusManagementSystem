@@ -1,0 +1,1 @@
+﻿select Choach_no,Seat_name from Ticket_select

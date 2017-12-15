@@ -1,0 +1,1 @@
+﻿INSERT INTO Employees (id,Name,Phone,Salary,Email) VALUES ('40','sarmad','019806540','2000','sarmad@gmail.com')
